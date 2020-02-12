@@ -1,0 +1,31 @@
+{
+  "name": "execution-context",
+  "version": "1.0.0",
+  "description": "Persistent execution context allowing you to get/set the context anywhere implemented using async hooks. Can be used to create request level execution context, a stack trace that persists through async resources, or anything else you need to survive the event loop. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaPulse/execution-context.git"
+  },
+  "keywords": [
+    "node",
+    "execution",
+    "context",
+    "http",
+    "request",
+    "request-scoped",
+    "async-hooks",
+    "async",
+    "context",
+    "persistent"
+  ],
+  "author": "Shanee Radzewsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaPulse/execution-context/issues"
+  },
+  "homepage": "https://github.com/DaPulse/execution-context#readme"
+}
