@@ -4,7 +4,7 @@
   "description": "Persistent execution context allowing you to get/set the context anywhere implemented using async hooks. Can be used to create request level execution context, a stack trace that persists through async resources, or anything else you need to survive the event loop. ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/DaPulse/node-execution-context#readme",
   "dependencies": {
     "async_hooks": "^1.0.0",
+    "jest": "^25.1.0",
     "lodash": "^4.17.15"
   }
 }
