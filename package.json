@@ -1,6 +1,6 @@
 {
   "name": "@mondaydotcomorg/node-execution-context",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Persistent execution context allowing you to get/set the context anywhere implemented using async hooks. Can be used to create request level execution context, a stack trace that persists through async resources, or anything else you need to survive the event loop. ",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaPulse/node-execution-context.git"
+    "url": "git+https://github.com/mondaycom/node-execution-context.git"
   },
   "keywords": [
     "node",
@@ -25,9 +25,9 @@
   "author": "Shanee Radzewsky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DaPulse/node-execution-context/issues"
+    "url": "https://github.com/mondaycom/node-execution-context/issues"
   },
-  "homepage": "https://github.com/DaPulse/node-execution-context#readme",
+  "homepage": "https://github.com/mondaycom/node-execution-context#readme",
   "dependencies": {
     "async_hooks": "^1.0.0",
     "jest": "^25.1.0",
