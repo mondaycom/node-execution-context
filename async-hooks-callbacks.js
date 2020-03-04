@@ -1,6 +1,4 @@
 function init(asyncId, type, triggerAsyncId) {
-  // if (!executionContextMap.has(triggerAsyncId)) return;
-
   const parentContext = executionContextMap.get(triggerAsyncId);
   if (!parentContext) return;
 
