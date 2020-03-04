@@ -29,8 +29,9 @@
   },
   "homepage": "https://github.com/mondaycom/node-execution-context#readme",
   "dependencies": {
-    "async_hooks": "^1.0.0",
-    "jest": "^25.1.0",
-    "lodash": "^4.17.15"
+    "async_hooks": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
